@@ -1,0 +1,45 @@
+.AirDrop-bg {
+   background-color: #171717;
+}
+
+.walletAddress-css {
+   cursor: pointer;
+}
+
+.copy-alert-pos {
+   position: fixed;
+   top: 15%;
+   right: 01%;
+   transition: ease-in-out 2s !important;
+}
+
+/* MEDIA QUERY */
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+   .font-size-address{
+      font-size: 10px;
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+   .font-size-address{
+      font-size: 18px;
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}

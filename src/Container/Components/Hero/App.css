@@ -1,0 +1,83 @@
+.hero-title-css {
+   color: #f0f0f7;
+   font-size: 70px;
+   font-weight: 700 !important;
+   width: 80%;
+}
+
+.hero-title-css-span {
+   color: #940bff;
+}
+
+.hero-p {
+   color: #f0f0f7;
+   width: 70%;
+   font-size: 20px;
+}
+
+/* MEDIA QUERY */
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    .hero-title-css {
+       font-size: 30px;
+       width: 100%;
+    }
+ 
+    .hero-p {
+       width: 100%;
+       font-size: 15px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+   .hero-title-css {
+      font-size: 40px;
+      width: 100%;
+   }
+
+   .hero-p {
+      width: 100%;
+      font-size: 15px;
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .hero-title-css {
+      font-size: 40px;
+   }
+
+   .hero-p {
+      width: 80%;
+      font-size: 16px;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   .hero-title-css {
+      font-size: 52px;
+   }
+
+   .hero-p {
+      width: 80%;
+      font-size: 18px;
+   }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+   .hero-title-css {
+      font-size: 60px;
+   }
+
+   .hero-p {
+      width: 80%;
+      font-size: 18px;
+   }
+}
+
+@media only screen and (min-width: 1400px) {
+}

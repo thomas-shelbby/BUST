@@ -1,0 +1,131 @@
+.nav-bg {
+   background-color: #00081471 !important;
+   backdrop-filter: blur(10px) !important;
+}
+
+.navbar {
+   z-index: 999999999999 !important;
+}
+
+.nav-link {
+   color: #f0f0f7 !important;
+   font-weight: 500;
+   font-family: 'Poppins', sans-serif !important;
+}
+
+.nav-link:hover {
+   color: #ffdc2a !important;
+}
+
+.nav-btn-not-bg {
+   background-color: transparent;
+   color: #f0f0f7;
+   font-weight: 500;
+   font-family: 'Poppins', sans-serif !important;
+   border: 2px #ffdc2a solid;
+}
+
+.nav-btn-not-bg:hover {
+   background-color: #ffdc2a;
+   text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px,
+      rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px,
+      rgb(0, 0, 0) -0.832294px 1.81859px 0px,
+      rgb(0, 0, 0) -1.60229px 1.19694px 0px,
+      rgb(0, 0, 0) -1.97998px 0.28224px 0px,
+      rgb(0, 0, 0) -1.87291px -0.701566px 0px,
+      rgb(0, 0, 0) -1.30729px -1.5136px 0px,
+      rgb(0, 0, 0) -0.421592px -1.95506px 0px,
+      rgb(0, 0, 0) 0.567324px -1.91785px 0px,
+      rgb(0, 0, 0) 1.41734px -1.41108px 0px,
+      rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+.active {
+   color: #ffdc2a !important;
+}
+
+.nav-btn-link {
+   background-image: url(../../Images/btnbg.png);
+   background-size: cover;
+   padding: 16px 26px !important;
+   border-radius: 12px;
+   font-size: 15px;
+   font-weight: 500;
+   background-color: #940bff;
+   color: white;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif !important;
+}
+
+.nav-btn-with-bg {
+   background-color: #ffdc2a;
+   color: #f0f0f7;
+   font-family: 'SFUI-SemiBold', sans-serif !important;
+   border: 2px #ffdc2a solid;
+   text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px,
+      rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px,
+      rgb(0, 0, 0) -0.832294px 1.81859px 0px,
+      rgb(0, 0, 0) -1.60229px 1.19694px 0px,
+      rgb(0, 0, 0) -1.97998px 0.28224px 0px,
+      rgb(0, 0, 0) -1.87291px -0.701566px 0px,
+      rgb(0, 0, 0) -1.30729px -1.5136px 0px,
+      rgb(0, 0, 0) -0.421592px -1.95506px 0px,
+      rgb(0, 0, 0) 0.567324px -1.91785px 0px,
+      rgb(0, 0, 0) 1.41734px -1.41108px 0px,
+      rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+.nav-btn-with-bg:hover {
+   background-color: transparent;
+}
+
+.navbar-toggler:focus {
+   text-decoration: none;
+   outline: 0;
+   box-shadow: none !important;
+}
+
+/* MEDIA QUERY */
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+   .nav-logo-height {
+      height: 50px;
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+   .nav-logo-height {
+      height: 50px;
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .nav-logo-height {
+      height: 50px;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   .nav-logo-height {
+      height: 50px;
+   }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+   .nav-logo-height {
+      height: 80px;
+   }
+}
+
+@media only screen and (min-width: 1400px) {
+   .nav-logo-height {
+      height: 80px;
+   }
+}

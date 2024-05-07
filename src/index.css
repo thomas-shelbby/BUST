@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+   font-family: 'SFUI-Regular';
+   src: url(./Fonts/SFUIDisplay-Regular.woff) format('woff');
+   font-weight: 500;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+   font-family: 'SFUI-Medium';
+   src: url(./Fonts/SFUIDisplay-Medium.woff) format('woff');
+}
+
+@font-face {
+   font-family: 'SFUI-SemiBold';
+   src: url(./Fonts/SFUIDisplay-Semibold.woff) format('woff');
+}
+
+@font-face {
+   font-family: 'SFUI-Bold';
+   src: url(./Fonts/SFUIDisplay-Bold.woff) format('woff');
+}
+
+h1,
+h2,
+h3 {
+   font-family: 'Orbitron', sans-serif;
+   font-weight: 500;
+   font-style: normal !important;
+}
+
+.color-grey {
+   color: #ffffffa8;
 }
